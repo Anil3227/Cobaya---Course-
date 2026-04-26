@@ -12,7 +12,7 @@ The original web page [Cobaya Website](https://cobaya.readthedocs.io/en/latest/i
 Cobaya
 ===================
 
-Create Virtual Environment 
+Create Virtual Environment ( first Download and Install Anaconda)
 ```
 conda create --name cobaya_env python=3.10 --platform osx-arm64
 conda activate cobaya_env
