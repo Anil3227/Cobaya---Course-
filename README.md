@@ -19,16 +19,19 @@ python -m pip install --upgrade pip
 conda install -c conda-forge openmpi mpi4py
 ```
 
-install Cobaya
+install Cobaya and check Installation
 ```
 python -m pip install cobaya --upgrade
 python -c "import cobaya; print('Cobaya imported successfully!')"
 python -c "import cobaya; print(cobaya.__version__)"
+
+```
+Make Cobaya working directory 
+```
 mkdir ~/cobaya
 cobaya-install cosmo -p ~/cobaya
 mkdir ~/cobaya/chains
-python -m pip install PySide6
-
+python -m pip install PySide6 (GUI tools)
 ```
 
 Input file 
