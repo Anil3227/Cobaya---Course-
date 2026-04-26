@@ -45,6 +45,9 @@ Make Cobaya working directory
 ```
 mkdir ~/cobaya
 cobaya-install cosmo -p ~/cobaya
+cobaya-install planck_2018_highl_plik.TTTEEE
+cobaya-install bicep_keck_2018
+
 mkdir ~/cobaya/chains
 python -m pip install PySide6 (GUI tools)
 ```
