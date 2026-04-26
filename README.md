@@ -7,11 +7,26 @@ Cobaya (code for bayesian analysis, and Spanish for Guinea Pig) is a framework f
 
 Its authors are Jesus Torrado and Antony Lewis.
 
-The original web page [Cobaya Website](https://cobaya.readthedocs.io/en/latest/index.html) that is cited in this document. 
+The original web page [Cobaya Website](https://cobaya.readthedocs.io/en/latest/index.html) that is cited in this document.
+
+Visit https://himanshu1729-cosmo.github.io/tutorials/ for Windows/ linux in detail.
 
 ===================
 
-Create Virtual Environment ( First Download and Install Anaconda)
+First Download and Install Anaconda / Just use code below to install mini-conda quickly
+```
+mkdir -p ~/miniconda3
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+source ~/miniconda3/bin/activate
+conda --version     (check if installed)
+```
+
+
+
+
+Create Virtual Environment 
 ```
 conda create --name cobaya_env python=3.10 --platform osx-arm64
 conda activate cobaya_env
