@@ -9,10 +9,9 @@ Its authors are Jesus Torrado and Antony Lewis.
 
 The original web page [Cobaya Website](https://cobaya.readthedocs.io/en/latest/index.html) that is cited in this document. 
 
-Cobaya
 ===================
 
-Create Virtual Environment ( first Download and Install Anaconda)
+Create Virtual Environment ( First Download and Install Anaconda)
 ```
 conda create --name cobaya_env python=3.10 --platform osx-arm64
 conda activate cobaya_env
