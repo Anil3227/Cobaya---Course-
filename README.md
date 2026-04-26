@@ -1,4 +1,4 @@
-# Cobaya---Course-
+# Cobaya 
 Installation and Using Guide.
 
 Cobaya, a code for Bayesian analysis in Cosmology: Installation and Using Guide
@@ -12,12 +12,16 @@ The original web page [Cobaya Website](https://cobaya.readthedocs.io/en/latest/i
 Cobaya
 ===================
 
- Cobaya Installation for Mac
+Create Virtual Environment 
 ```
 conda create --name cobaya_env python=3.10 --platform osx-arm64
 conda activate cobaya_env
 python -m pip install --upgrade pip
 conda install -c conda-forge openmpi mpi4py
+```
+
+install Cobaya
+```
 python -m pip install cobaya --upgrade
 python -c "import cobaya; print('Cobaya imported successfully!')"
 python -c "import cobaya; print(cobaya.__version__)"
@@ -25,6 +29,7 @@ mkdir ~/cobaya
 cobaya-install cosmo -p ~/cobaya
 mkdir ~/cobaya/chains
 python -m pip install PySide6
+
 ```
 
 Input file 
