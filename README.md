@@ -25,9 +25,25 @@ mkdir ~/cobaya
 cobaya-install cosmo -p ~/cobaya
 mkdir ~/cobaya/chains
 python -m pip install PySide6
+```
+
+Input file 
+```
 cobaya-cosmo-generator
 cobaya-run test.yaml
 ```
+
+After saving the .yaml file (e.g., test.yaml), run:
+```
+cobaya-run test.yaml
+```
+For Contour plots use text file (chain)
+```
+test.1.txt
+```
+
+
+
 
 
 
