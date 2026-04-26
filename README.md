@@ -30,7 +30,6 @@ python -m pip install PySide6
 Input file 
 ```
 cobaya-cosmo-generator
-cobaya-run test.yaml
 ```
 
 After saving the .yaml file (e.g., test.yaml), run:
