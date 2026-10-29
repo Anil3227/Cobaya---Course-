@@ -20,7 +20,7 @@ curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/
 bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm ~/miniconda3/miniconda.sh
 source ~/miniconda3/bin/activate
-conda --version     (check if installed)
+conda --version   # (check if installed)
 ```
 
 
@@ -43,7 +43,7 @@ python -c "import cobaya; print(cobaya.__version__)"
 ```
 Make Cobaya working directory 
 ```
-mkdir ~/Documents/cobaya  (I want cobaya inside my documents)
+mkdir ~/Documents/cobaya # (I want cobaya inside my documents)
 cobaya-install cosmo -p ~/Documents/cobaya
 cobaya-install planck_2018_highl_plik.TTTEEE
 cobaya-install bicep_keck_2018
