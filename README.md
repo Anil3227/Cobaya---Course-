@@ -43,12 +43,12 @@ python -c "import cobaya; print(cobaya.__version__)"
 ```
 Make Cobaya working directory 
 ```
-mkdir ~/documents/cobaya. (I want cobaya inside my documents)
-cobaya-install cosmo -p ~/documents/cobaya
+mkdir ~/Documents/cobaya  (I want cobaya inside my documents)
+cobaya-install cosmo -p ~/Documents/cobaya
 cobaya-install planck_2018_highl_plik.TTTEEE
 cobaya-install bicep_keck_2018
 
-mkdir ~/documents/cobaya/chains
+mkdir ~/Documents/cobaya/chains
 python -m pip install PySide6 
 ```
 
