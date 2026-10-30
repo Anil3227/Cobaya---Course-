@@ -71,4 +71,21 @@ cobaya-install act_dr6_cmbonly.PlanckActCut
 
 ```
 
+# Lyα P1D Likelihood Installation
+
+The Lyα P1D likelihood uses the one-dimensional power spectrum of the Lyman-alpha forest to constrain cosmological parameters.
+See the [Lyα P1D likelihood documentation](https://github.com/igmhub/cobaya_lya_p1d) for data requirements, configuration, and usage details.
+
+
+```bash
+# Open the code folder; replace this path with your own
+cd /Users/anilkandel/Documents/cobaya/code
+
+# Download the repository and enter its folder
+git clone https://github.com/igmhub/cobaya_lya_p1d.git
+cd cobaya_lya_p1d
+
+# Install in the active Python environment
+pip install -e .
+```
 
