@@ -65,6 +65,10 @@ cd DR6-ACT-lite
 # Install the package and likelihood data
 pip install -e .
 cobaya-install act_dr6_cmbonly
+
+# Planck dataset cut at the ACT multipole
+cobaya-install act_dr6_cmbonly.PlanckActCut
+
 ```
 
 
