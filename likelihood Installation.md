@@ -33,3 +33,15 @@ cd hillipop
 pip install -e .
 cobaya-install planck_2020_hillipop.TTTEEE
 ```
+
+
+## WMAP likelihood
+
+See the [WMAP likelihood documentation](https://github.com/HTJense/pyWMAP) for details.
+
+```bash
+git clone https://github.com/HTJense/pyWMAP
+cd pyWMAP
+pip install -e .
+```
+
