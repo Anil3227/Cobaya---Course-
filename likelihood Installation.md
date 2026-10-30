@@ -40,8 +40,12 @@ cobaya-install planck_2020_hillipop.TTTEEE
 See the [WMAP likelihood documentation](https://github.com/HTJense/pyWMAP) for details.
 
 ```bash
+# Open the code folder; replace this path with your own
+cd /Users/anilkandel/Documents/cobaya/code
+
 git clone https://github.com/HTJense/pyWMAP
 cd pyWMAP
+
 pip install -e .
 ```
 
