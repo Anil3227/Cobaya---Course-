@@ -49,3 +49,22 @@ cd pyWMAP
 pip install -e .
 ```
 
+
+# Atacama Cosmology Telescope (ACT) DR6 CMB-Only Likelihood Installation
+
+See the [ACT DR6 CMB-only likelihood documentation](https://github.com/ACTCollaboration/DR6-ACT-lite) for details.
+
+```bash
+# Open the code folder; replace this path with your own
+cd /Users/anilkandel/Documents/cobaya/code
+
+# Download ACT DR6 and enter its folder
+git clone https://github.com/ACTCollaboration/DR6-ACT-lite.git
+cd DR6-ACT-lite
+
+# Install the package and likelihood data
+pip install -e .
+cobaya-install act_dr6_cmbonly
+```
+
+
